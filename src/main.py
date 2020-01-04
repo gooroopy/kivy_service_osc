@@ -95,7 +95,11 @@ class ClientServerApp(App):
 
     def stop_service(self):
         if self.service:
-            self.service.stop()
+            if platform == 'android':
+                mActivity = autoclass(u'org.kivy.android.PythonActivity').mActivity
+                self.service.stop(mActivity)
+            else:
+                self.service.stop()
             self.service = None
 
     def send(self, *args):

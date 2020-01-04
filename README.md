@@ -1,7 +1,7 @@
 Purpose
 =======
 
-[![CircleCI](https://circleci.com/gh/tshirtman/kivy_service_osc/tree/master.svg?style=svg)](https://circleci.com/gh/tshirtman/kivy_service_osc/tree/master)
+[![CircleCI](https://circleci.com/gh/gooroopy/kivy_service_osc/tree/master.svg?style=svg)](https://circleci.com/gh/gooroopy/kivy_service_osc/tree/master)
 
 This code aims at demonstrating an use of services in python-for-android, and
 communication between services and a kivy front end.
